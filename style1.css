@@ -5,19 +5,28 @@ body, html {
   height: 100%;
   margin: 0;
 }
-
-.bg-img {
-	 background-image: url("https://i.ibb.co/pnzkF1Q/2a03c849890288a01d1029cdba67c392-1.jpg");
-  height: 95%;
-	background-position: center;
-	background-repeat: repeat;
-  background-size: cover;
-  position: relative;
-	opacity: 60%;
-	image-rendering: -webkit-optimize-contrast;
-	image-rendering: auto;
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(236, 111, 123);
 }
-
+li {
+  float: right;
+}
+li a {
+  font-size: 130%;
+  display: block;
+  color: #ffff;
+  text-align: center;
+  padding: 20px 26px;
+  text-decoration: none;
+	font-family: Quicksand;
+}
+li a:hover {
+  background-color: rgb(216, 48, 87);
+}
 .home-txt h1 {
 	position: absolute;
 	width: 458px;
@@ -47,10 +56,19 @@ font-style: normal;
 font-weight: normal;
 font-size: 24px;
 line-height: 30px;
-
 letter-spacing: 0.21em;
-
 color: #b80052;
-
 text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.bg-img2 {
+	 background-image: url("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/valentines-day-zoom-backgrounds-flower-wall-1610475436.jpg?crop=1xw:1xh;center,top&resize=480:*");
+  height: 95%;
+	background-position: center;
+	background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+	opacity: 100%;
+	image-rendering: -webkit-optimize-contrast;
+	image-rendering: auto;
 }
