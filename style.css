@@ -4,6 +4,11 @@
 body, html {
   height: 100%;
   margin: 0;
+  line-height: 1.5;
+  /*font-weight: 300;
+  font-style: normal;
+  webkit-font-smoothing: antialised;
+  webkit-text-size-adjust: 100%;*/
 }
 
 .bg-img {
@@ -51,4 +56,48 @@ body, html {
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
+.section-header {
+  margin-bottom: 35px;
+}
 
+.text-center {
+  text-align: center !important;
+}
+
+.feature-row_image {
+  display: block;
+  margin-top: 0px;
+  margin-right: auto;
+  margin-bottom: 0px;
+  margin-left: auto;
+}
+.grid {
+  list-style-position: initial;
+  list-style-image: initial;
+  list-style-type: none;
+}
+
+.info-title {
+margin-top: 0px;
+margin-right: 0px;
+margin-bottom: 20, 5px;
+margin-left: 0px;
+font-family: Quicksand;
+font-style: normal;
+font-weight: 40px;
+line-height: 1,2;
+word-wrap: break-word;
+}
+
+p {
+  font-family: Quicksand;
+  color: #3d4246;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
