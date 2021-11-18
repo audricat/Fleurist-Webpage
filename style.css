@@ -7,8 +7,8 @@ body, html {
 }
 
 .bg-img {
-	 background-image: url("https://i.ibb.co/pnzkF1Q/2a03c849890288a01d1029cdba67c392-1.jpg");
-  height: 95%;
+	background-image: url("https://i.ibb.co/pnzkF1Q/2a03c849890288a01d1029cdba67c392-1.jpg");
+  height: 100%;
 	background-position: center;
 	background-repeat: repeat;
   background-size: cover;
@@ -25,32 +25,30 @@ body, html {
 	left: 980px;
 	top: 360px;
 	text-align: right;
-font-family: Raleway;
-font-style: normal;
-font-weight: normal;
-font-size: 72px;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 30px;
+  font-size: 72px;
 	line-height: 96px;
 	letter-spacing: 0.31em;
-	color:  #F64D35;
+	color:  rgb(211, 84, 67);
 	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .home-txt h3 {
-position: absolute;
-width: 300px;
-height: 30px;
-left: 1100px;
-top: 490px;
-
-font-family: Quicksand;
-font-style: normal;
-font-weight: normal;
-font-size: 24px;
-line-height: 30px;
-
-letter-spacing: 0.21em;
-
-color: #b80052;
-
-text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  position: absolute;
+  width: 300px;
+  height: 30px;
+  left: 1100px;
+  top: 490px;
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: 30px;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: 0.21em;
+  color: rgb(143, 27, 12);
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+
+

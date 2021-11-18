@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Montserrat&family=Playfair+Display&family=Quicksand:wght@300;400&family=Raleway:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Playfair+Display&family=Quicksand:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@186&display=swap');
+
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.bg-img2 {
+	 background-image: url("https://c4.wallpaperflare.com/wallpaper/930/541/117/flowers-background-pink-pink-flowers-hd-wallpaper-thumb.jpg");
+  height: 100%;
+  padding-top: 0px;
+	background-position: center;
+	background-repeat: repeat;
+  background-size: cover;
+  position: relative;
+	image-rendering: -webkit-optimize-contrast;
+	image-rendering: auto;
+}
+
+.best {
+  clear: both;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  letter-spacing: 0.1px;
+  position: relative;
+  z-index: 1;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 0 .25em;
+  font-family: Quicksand;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 1.5;
+} 
+
+.pic {
+  float: left; 
+  margin-right: 0%; 
+  margin-bottom: 3em;
+  display: block;
+  margin-left: 100px;
+  border: 1px solid rgb(216, 89, 89);
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+}
+
+pic:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+.page-width {
+  padding-left: 55px;
+  padding-right: 55px;
+}
+
+hr {
+	border-top-width: 3px;
+	border: solid rgb(226, 166, 166);
+	opacity: 50%;
+}
+
+.full-wrap-card {
+  position: relative;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 40px 40px 0 40px;
+  background: white;
+  box-shadow: 0 1px 3px rgb(0 0 0 / 30%);
+}
