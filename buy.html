@@ -1,0 +1,80 @@
+<!--Ordering page-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Fleurist Phillipines | Order </title>
+        <link rel="stylesheet" href="buy.css"> 
+        <link rel="shortcut icon" href="https://i.ibb.co/wBPv1Bg/text-1637223308888.png">
+    </head>
+    <body>
+        <form action="#" method="POST">
+          <br>
+            <fieldset>
+              <img src="https://i.ibb.co/wBPv1Bg/text-1637223308888.png">
+                <label for="name">Customer Name</label>
+                <input type="text" id="name"> </input>
+                    <label for="email">Email</label>
+                    <input type="text" id="email"> </input>
+                    <label for="cp">Cellphone Number</label>
+                    <input type="text" id="cp"> </input>
+                <br>
+                <br>    
+            </fieldset>     
+            <br>
+            <br>       
+            <form action="#" method="POST">
+                <fieldset>
+                    <legend>ORDER</legend>
+                    <label for="sets">Bouquet Sets</label>
+                    <select id="sets">
+                        <option value="delset1">A Deluxe Bouquet Set 1</option>
+                        <option value="delset2">A Deluxe Bouquet Set 2</option>
+                        <option value="delset3">A Deluxe Bouquet Set 3</option>
+                        <option value="dozset1">Dramatic Dozen Set 1</option>
+                        <option value="dozset2">Dramatic Dozen Set 2</option>
+                        <option value="dozset3">Dramatic Dozen Set 3</option>
+                        <option value="laset1">La Vie en Rose Set 1</option>
+                        <option value="laset2">La Vie en Rose Set 2</option>
+                        <option value="laset3">La Vie en Rose Set 3</option>
+                        <option value="laset4">La Vie en Rose Set 4</option>
+                    </select>
+                        <label for="qty">Quantity</label>
+                        <input type="number" id="qty">
+                        <label for="amt">Amount</label>
+                        <input type="text" id="amt"></input>
+                        <br>
+                        <br>
+                        <div class="checks">
+                            <label for="paymethod">Payment method</label>
+                            <input type="radio" id="paymethod" name="paymethod" value="credit"> Credit Card
+                            <input type="radio" id="paymethod" name="paymethod"value="paypal"> Paypal
+                        </div>
+                        <button type="button" id="submit" onclick="calc()">Submit</button>      
+                        <button type="button"><a href="index.html">Return</button>                              
+                </fieldset>            
+        </form>
+    </body>
+    <script>
+        function calc() {
+            
+            var qty = document.getElementById("qty").value;
+            var place = document.getElementById("sets").value;
+            var amt = document.getElementById("amt");
+            if (place=="delset1") {amt = 1,800.00;}
+            else if (place=="delset2") {amt = 1,800.00;}
+            else if (place=="delset3") {amt = 1,800.00;}
+            else if (place=="dozset1") {amt = 1,800.00;}
+            else if (place=="dozset2") {amt = 1,800.00;}
+            else if (place=="dozset3") {amt = 1,800.00;}
+            else if (place=="laset1") {amt =  2,000.00;}
+            else if (place=="laset2") {amt =  2,000.00;}
+            else if (place=="laset3") {amt =  2,000.00;}
+            else if (place=="laset4") {amt =  2,000.00;}
+            document.getElementById("amt").value = amt * qty;
+            alert("Thank you for ordering!\n================ Receipt ==============\n Amount = " + amt * qty);
+        }
+    </script>
+</html>

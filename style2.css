@@ -1,3 +1,5 @@
+/*Product page css */
+
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Montserrat&family=Playfair+Display&family=Quicksand:wght@300;400&family=Raleway:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Playfair+Display&family=Quicksand:wght@300;400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@186&display=swap');
@@ -72,4 +74,29 @@ hr {
   padding: 40px 40px 0 40px;
   background: white;
   box-shadow: 0 1px 3px rgb(0 0 0 / 30%);
+}
+
+.productSummaryName {
+  font: Quicksand;
+}
+.productSummaryFeatured, productSummary:hover {
+float: left;
+width: 235px;
+color: black;
+margin-right: 20px;
+height: 340px;
+margin-bottom: 20px;
+}
+
+.productSummaryImage {
+  height: 235px;
+  text-align: center;
+  background: #fff !important;
+}
+
+.productSummaryPrice {
+  color: #333;
+  text-align: center;
+  font-size: 11.5pt;
+  line-height: 1.4em;
 }

@@ -1,0 +1,128 @@
+/*About us css*/
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Montserrat&family=Playfair+Display&family=Quicksand:wght@300;400&family=Raleway:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Playfair+Display&family=Quicksand:wght@300;400&display=swap');
+
+body, html {
+  height: 100%;
+  margin: 0;
+  line-height: 1.5;
+}
+
+.home-txt h1 {
+	position: absolute;
+	width: 458px;
+	height: 176px;
+	left: 900px;
+	top: 360px;
+	text-align: right;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 30px;
+  font-size: 80px;
+	line-height: 96px;
+	letter-spacing: 0.31em;
+	color:  rgb(211, 84, 67);
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.home-txt h3 {
+  position: absolute;
+  width: 300px;
+  height: 30px;
+  left: 1100px;
+  top: 490px;
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: 30px;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: 0.21em;
+  color: rgb(143, 27, 12);
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+* {
+  box-sizing: border-box;
+}
+
+.header, .footer {
+  background-color: rgb(238, 156, 156);
+  color: white;
+  padding: 10px;
+}
+
+.column {
+  float: left;
+  padding: 15px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.menu {
+  width: 25%;
+}
+
+.content {
+  width: 75%;
+}
+
+.pe {
+  font-family: Quicksand;
+  font-size: 20px;
+  color: #3d4246;
+  margin-right: 40%;
+  margin-left: 20%;
+  text-align: center;
+  display: block;
+}
+
+.p-products {
+  margin-left: 30%;
+  margin-right: 55%;
+  font-size: 30px;
+  font-weight: 500px;
+  font-family: Quicksand;
+  color: #767676;
+  text-align: center;
+}
+
+  .site-footer__linklist-item {
+    font-family: Quicksand;
+    color: #ffffff;
+    box-align: center;
+    background-color: rgb(236, 111, 123);
+    padding-right: 499px;
+    padding-left: 541px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 25px;
+  }
+
+  .site-footer {
+    color: #3d4246;
+    background-color: #f5f5f5;
+    font-family: Quicksand;
+    text-align: center;
+  }
+
+  .nonot {
+    font-family: Quicksand;
+    font-size: 25px;
+    align-self: left;
+    color: #3d4246;
+  }
+
+  .info {
+    font-size: 25px;
+    text-align: left;
+  }
+  
+hr {
+	border-top-width: 3px;
+	border: solid rgb(226, 166, 166);
+	opacity: 50%;
+}

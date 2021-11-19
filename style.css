@@ -1,3 +1,5 @@
+/*home page css*/
+
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Montserrat&family=Playfair+Display&family=Quicksand:wght@300;400&family=Raleway:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Playfair+Display&family=Quicksand:wght@300;400&display=swap');
 
@@ -5,35 +7,72 @@ body, html {
   height: 100%;
   margin: 0;
   line-height: 1.5;
-  /*font-weight: 300;
-  font-style: normal;
-  webkit-font-smoothing: antialised;
-  webkit-text-size-adjust: 100%;*/
 }
 
-.bg-img {
-	background-image: url("https://i.ibb.co/pnzkF1Q/2a03c849890288a01d1029cdba67c392-1.jpg");
-  height: 100%;
-	background-position: center;
-	background-repeat: repeat;
-  background-size: cover;
-  position: relative;
-	opacity: 60%;
-	image-rendering: -webkit-optimize-contrast;
-	image-rendering: auto;
+.element.style {
+    background-color: rgba(0, 0, 0, 0);
+    background-repeat: no-repeat;
+    background-image: url(https://i.ibb.co/pnzkF1Q/2a03c849890288a01d1029cdba67c392-1.jpg);
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+    opacity: 60%;
+    visibility: inherit;
+    z-index: 20;
+}
+
+.p-products {
+  padding-bottom: 80px;
+  padding-top: 80px;
+  font-size: 30px;
+  font-family: Raleway;
+  font-weight: 500px;
+  color: #767676;
+  text-align: center;
+}
+
+.m-bottom {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.service {
+  background-color: #f8d3d3;
+  padding-top: 40px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  transition-property: all;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0s;
+}
+
+hr {
+	border-top-width: 3px;
+	border: solid rgb(226, 166, 166);
+	opacity: 50%;
+}
+
+section {
+  width: 100%;
+  display: block;
 }
 
 .home-txt h1 {
 	position: absolute;
 	width: 458px;
 	height: 176px;
-	left: 980px;
+	left: 900px;
 	top: 360px;
 	text-align: right;
   font-family: Raleway;
   font-style: normal;
   font-weight: 30px;
-  font-size: 72px;
+  font-size: 80px;
 	line-height: 96px;
 	letter-spacing: 0.31em;
 	color:  rgb(211, 84, 67);
@@ -56,21 +95,6 @@ body, html {
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.section-header {
-  margin-bottom: 35px;
-}
-
-.text-center {
-  text-align: center !important;
-}
-
-.feature-row_image {
-  display: block;
-  margin-top: 0px;
-  margin-right: auto;
-  margin-bottom: 0px;
-  margin-left: auto;
-}
 .grid {
   list-style-position: initial;
   list-style-image: initial;
@@ -85,12 +109,14 @@ margin-left: 0px;
 font-family: Quicksand;
 font-style: normal;
 font-weight: 40px;
+font-size: 30px;
 line-height: 1,2;
 word-wrap: break-word;
 }
 
 p {
   font-family: Quicksand;
+  font-size: 20px;
   color: #3d4246;
   margin-top: 0px;
   margin-left: 0px;
@@ -101,3 +127,62 @@ p {
   margin-inline-start: 0px;
   margin-inline-end: 0px;
 }
+
+.light-bg {
+  margin-top: 5px;
+  background-color: #f8f8f8;
+  width: 100%;
+  display: block;
+}
+
+.btn-products {
+  font-family: Quicksand;
+  padding: 10px;
+  font-size: 20px;
+  background-color: #f8d3d3;
+  border-top-color: rgb(143, 27, 12);
+    border-top-style: solid;
+    border-top-width: 3px;
+    border-right-color: black;
+    border-right-style: solid;
+    border-right-width: 3px;
+    border-bottom-color: black;
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    border-left-color: black;
+    border-left-style: solid;
+    border-left-width: 3px;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    color: black; 
+}
+
+  .site-footer__linklist-item {
+    color: #3d4246;
+    box-align: center;
+    background-color: rgb(236, 111, 123);
+    padding-right: 560px;
+    padding-left: 558px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 25px;
+  }
+
+  .site-footer {
+    color: #3d4246;
+    background-color: #f5f5f5;
+  }
+
+  .nonot {
+    font-family: Quicksand;
+    font-size: 25px;
+    align-self: left;
+  }
+
+  .info {
+    font-size: 25px;
+    text-align: left;
+  }
